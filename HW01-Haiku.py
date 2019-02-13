@@ -15,6 +15,7 @@ fin.close()
 # function that takes in a word and uses cmu dict to tell us how many syllables the word has
 def countSyllables(word):
     pronunciationList = arpabet[word]
+    print(pronunciationList)
     # there may be more than one pronunciation of a word so here I only count the first one
     count = 0
     # for each group
